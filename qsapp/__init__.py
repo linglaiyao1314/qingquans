@@ -1,5 +1,6 @@
 # coding=utf-8
-from flask import Flask, render_template, g, request, session
+from flask import Flask
+
 from helpers import template_filters
 
 
