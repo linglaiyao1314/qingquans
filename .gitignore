@@ -1,0 +1,8 @@
+*.pyc
+.idea
+*.log
+._.DS_Store
+*.swp
+.DS_Store
+Uploads/ds*
+Uploads
