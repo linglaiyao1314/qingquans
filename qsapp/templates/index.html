@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>抚州清泉水农家乐</title>
+    <title>江西抚州老兵生态农业网</title>
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
@@ -60,7 +60,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#page-top">抚州老兵生态旅游</a>
+                <a class="navbar-brand" href="#page-top">江西抚州老兵生态农业网</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -71,13 +71,13 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#portfolio">游乐项目</a>
+                        <a href="#portfolio">绿色人生</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#about">游乐简介</a>
+                        <a href="#about">企业简介</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#contact">联系我们</a>
+                        <a href="#contact">访客留言</a>
                     </li>
                 </ul>
             </div>
@@ -93,7 +93,7 @@
                 <div class="col-lg-12">
                     <img class="img-responsive" src="{{ url_for('static', filename='img/profile.png') }}" alt="">
                     <div class="intro-text">
-                        <span class="name">抚州绿川清泉水农庄欢迎您</span>
+                        <span class="name"></span>
                         <hr class="star-light">
                         <span class="skills">钓鱼 - 采摘 - 划船 - 回归大自然</span>
                     </div>
@@ -107,7 +107,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>游乐项目</h2>
+                    <h2>绿色人生</h2>
                     <hr class="star-primary">
                 </div>
             </div>
@@ -181,16 +181,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>游乐简介</h2>
+                    <h2>企业简介</h2>
                     <hr class="star-light">
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;农场坐落于临川跃进水库东部，有着优越的自然景观，旨在以生态农业、水产业、畜牧养殖业为核心。造就田园生态风光，打造集生产与生态，观光与休闲为一体的现代化农业旅游胜地。</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;抚州老兵生态农业坐落于临川跃进水库东部，有着优越的自然景观，旨在以生态农业、水产业、畜牧养殖业为核心。造就田园生态风光，打造集生产与生态，观光与休闲为一体的现代化农业旅游胜地。</p>
                 </div>
                 <div class="col-lg-4">
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;在这里，回归绿色，拥抱自然。在这里，家庭游、亲子游、情侣游、商务游；休闲科普教育、拓展训练；农业、水产、畜牧业观光；采摘、露营、烧烤、原生态食品等，应有尽有。欢迎您前来玩乐。</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;在这里，回归绿色，拥抱自然。在这里，家庭游、亲子游、情侣游、商务游；休闲科普教育、拓展训练；农业、水产、畜牧业观光；采摘、露营、烧烤、原生态食品等，应有尽有。</p>
                 </div>
 {#                <div class="col-lg-8 col-lg-offset-2 text-center">#}
 {#                    <a href="#" class="btn btn-lg btn-outline">#}
@@ -216,29 +216,15 @@
                     <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Name</label>
-                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                                <label>标题</label>
+                                <input type="text" class="form-control" placeholder="标题" id="title" required data-validation-required-message="请输入标题">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Email Address</label>
-                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Phone Number</label>
-                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Message</label>
-                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <label>咨询信息</label>
+                                <textarea rows="5" class="form-control" placeholder="咨询信息" id="message" required data-validation-required-message="请输入咨询信息"></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
@@ -246,7 +232,7 @@
                         <div id="success"></div>
                         <div class="row">
                             <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-success btn-lg">Send</button>
+                                <button type="submit" id="send" class="btn btn-success btn-lg">发送</button>
                             </div>
                         </div>
                     </form>
@@ -260,33 +246,34 @@
         <div class="footer-above">
             <div class="container">
                 <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+                    <div class="footer-col col-md-6">
+                        <h3>地址</h3>
+                        <p>江西省抚州市<br>临川区跃进水库</p>
                     </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>About Freelancer</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+{#                    <div class="footer-col col-md-4">#}
+{#                        <h3>Around the Web</h3>#}
+{#                        <ul class="list-inline">#}
+{#                            <li>#}
+{#                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>#}
+{#                            </li>#}
+{#                            <li>#}
+{#                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>#}
+{#                            </li>#}
+{#                            <li>#}
+{#                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>#}
+{#                            </li>#}
+{#                            <li>#}
+{#                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>#}
+{#                            </li>#}
+{#                            <li>#}
+{#                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>#}
+{#                            </li>#}
+{#                        </ul>#}
+{#                    </div>#}
+                    <div class="footer-col col-md-6">
+                        <h3>咨询电话</h3>
+                        <p>手机号:15307044508</p>
+                        <p>座机号:0794-8767133</p>
                     </div>
                 </div>
             </div>
@@ -295,7 +282,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; Your Website 2014
+                        如有疑问请第一时间联系我们 - 赣ICP备16011197号-1
                     </div>
                 </div>
             </div>
@@ -555,7 +542,14 @@
     <!-- Custom Theme JavaScript -->
 
     <script src="{{ url_for('static', filename='js/freelancer.js') }}"></script>
-
+    <script>
+{#        $(function(){#}
+{#            $("#send").click(function(){#}
+{#                var title = $("#title").text();#}
+{#                var msg = $("#message").text();#}
+{#            })#}
+{#        })#}
+    </script>
 </body>
 
 </html>
