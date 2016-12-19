@@ -15,7 +15,9 @@ def create_app_by_config(config=None, profile=False):
             raise ValueError("[%s] config is not exists" % config)
 
     from qsapp.views.qsmain_view import qsmain
+    from qsapp.views.wechat_view import wechat
     app.register_blueprint(qsmain)
+    app.register_blueprint(wechat)
 
     # 增加过滤器
     for value in template_filters.__dict__.values():
